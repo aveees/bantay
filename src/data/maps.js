@@ -1,20 +1,65 @@
-export const mapCards = [
+
+import cemetery from '../assets/imgs/map_cemetery.png';
+import farm from '../assets/imgs/map_farm.png';
+import forest from '../assets/imgs/map_forest.png';
+import mountain from '../assets/imgs/map_mountain.png';
+import normal from '../assets/imgs/map_normal.png';
+import river from '../assets/imgs/map_river.png';
+export const islandGroups = [
   {
-    name: "Sierra Madre",
-    desc: "A cursed mountain forest swallowed by fog, whispers, and old spirits.",
-    image:
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    id: "luzon",
+    name: "Luzon",
+    subtitle: "Northern lands of mountains, forests, and buried fear.",
+    maps: [
+      {
+        name: "Sierra Madre",
+        desc: "A cursed mountain forest swallowed by fog, whispers, and old spirits.",
+        image: mountain,
+      },
+      {
+        name: "Manila North Cemetery",
+        desc: "A forsaken burial ground where silence breaks only when the dead begin to move.",
+        image:
+          cemetery,
+      },
+    ],
   },
   {
-    name: "Siquijor",
-    desc: "An island of rituals, shadows, and secrets buried beneath moonlit shores.",
-    image:
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    id: "visayas",
+    name: "Visayas",
+    subtitle: "Islands of rituals, coastlines, and whispers in the dark.",
+    maps: [
+      {
+        name: "Siquijor",
+        desc: "An island of rituals, shadows, and secrets buried beneath moonlit shores.",
+        image:
+          forest,
+      },
+      {
+        name: "Samar",
+        desc: "A haunted landscape where old legends still linger between the plains.",
+        image:
+          farm,
+      },
+    ],
   },
   {
-    name: "Surigao",
-    desc: "A haunted frontier where jungle trails lead straight into the unknown.",
-    image:
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80",
+    id: "mindanao",
+    name: "Mindanao",
+    subtitle: "Frontiers of jungle, darkness, and ancient unrest.",
+    maps: [
+      {
+        name: "Surigao del Sur",
+        desc: "A haunted frontier where jungle trails lead straight into the unknown.",
+        image:
+          normal,
+      },
+      {
+        name: "Cotabato",
+        desc: "A shadowed region where the land with something always seems to be watching.",
+        image:
+          river,
+      },
+    ],
   },
 ];

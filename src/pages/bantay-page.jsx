@@ -5,6 +5,8 @@ import CharactersSection from "../components/sections/CharacterSection";
 import EnemiesSection from "../components/sections/EnemySection";
 import HeroSection from "../components/sections/HeroSection";
 import TeaserSection from "../components/sections/TeaserSection";
+import DescriptionSection from "../components/sections/DescriptionSection";
+import DevelopersSection from "../components/sections/DeveloperSection";
 // import the rest of your sections too
 
 export default function BantayLandingPage() {
@@ -22,12 +24,12 @@ export default function BantayLandingPage() {
 
       <main>
         <HeroSection/>
-        {/* AboutSection */}
+        <DescriptionSection/>
         <MapsSection />
         <CharactersSection />
         <EnemiesSection />
         <TeaserSection/>
-        {/* DevelopersSection */}
+        <DevelopersSection/>
       </main>
 
       <Footer />

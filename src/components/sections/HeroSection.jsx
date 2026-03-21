@@ -57,7 +57,7 @@ export default function HeroSection() {
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
               href="#download"
-              className="rounded-full bg-linear-to-b from-[#fae25c] via-[#a77907] to-[#5a3b00] px-6 py-3  border-red-950 font-semibold text-white shadow-[0_0_20px_rgba(255,0,0,0.4)] transition hover:bg-red-500"
+              className="rounded-full bg-linear-to-b from-[#fa5c5c] via-[#a70707] to-[#5a0000] px-6 py-3  border-red-950 font-semibold text-white shadow-[0_0_20px_rgba(255,0,0,0.4)] transition hover:bg-red-500"
             >
               Download APK
             </a>

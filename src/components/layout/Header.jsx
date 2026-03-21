@@ -24,17 +24,17 @@ export default function Header() {
         </div>
 
         <nav className="hidden items-center gap-6 text-sm text-stone-300 lg:flex">
-          <a href="#about" className="transition hover:text-amber-200">About</a>
-          <a href="#maps" className="transition hover:text-amber-200">Maps</a>
-          <a href="#characters" className="transition hover:text-amber-200">Characters</a>
-          <a href="#enemies" className="transition hover:text-amber-200">Enemies</a>
-          <a href="#teaser" className="transition hover:text-amber-200">Teaser</a>
-          <a href="#developers" className="transition hover:text-amber-200">Developers</a>
+          <a href="#about" className="transition hover:text-red-600">About</a>
+          <a href="#maps" className="transition hover:text-red-600">Maps</a>
+          <a href="#characters" className="transition hover:text-red-600">Characters</a>
+          <a href="#enemies" className="transition hover:text-red-600">Enemies</a>
+          <a href="#teaser" className="transition hover:text-red-600">Teaser</a>
+          <a href="#developers" className="transition hover:text-red-600">Developers</a>
         </nav>
 
         <a
           href="#download"
-          className="inline-flex items-center gap-2 rounded-full border border-amber-300/30 bg-amber-500/10 px-4 py-2 text-sm font-medium text-amber-100 shadow-[0_0_20px_rgba(255,145,0,0.14)] transition hover:border-amber-200/60 hover:bg-amber-400/20 hover:shadow-[0_0_30px_rgba(255,145,0,0.28)]"
+          className="inline-flex items-center gap-2 rounded-full border border-red-300/30 bg-red-500/10 px-4 py-2 text-sm font-medium text-red-100 shadow-[0_0_20px_rgba(255,145,0,0.14)] transition hover:border-red-200/60 hover:bg-red-400/20 hover:shadow-[0_0_30px_rgba(255,145,0,0.28)]"
         >
           <Download className="h-4 w-4" />
           Download APK
