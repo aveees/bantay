@@ -42,14 +42,14 @@ const highlights = [
   {
     icon: Gamepad2,
     label: "Genre",
-    title: "2D Top-Down Survival Horror",
+    title: "2D Top-Down Fighting-Adventure",
     desc: "BANTAY is a folklore-driven survival horror game where players explore cursed environments, evade or confront terrifying creatures, and uncover the truth behind a land consumed by fear.",
   },
   {
     icon: Crosshair,
     label: "Core Objective",
     title: "Survive, Protect, and Resist the Darkness",
-    desc: "Your mission is to endure the horrors of the night, defend the village from supernatural threats, and choose how to fight back through strategy, role abilities, and courage.",
+    desc: "Your mission is to endure the horrors of the night, defend the village core from supernatural threats, and choose how to fight back through strategy, role abilities, and courage.",
   },
   {
     icon: ShieldAlert,
@@ -60,8 +60,8 @@ const highlights = [
   {
     icon: Map,
     label: "Player Goal",
-    title: "Uncover the Source of the Curse",
-    desc: "Beyond survival, players must investigate maps inspired by Luzon, Visayas, and Mindanao, reveal the cause of the spreading darkness, and become the Bantay the land needs.",
+    title: "Kill the Enemies",
+    desc: "Players must become the Bantay the land needs by eliminating the enemies.",
   },
 ];
 
@@ -77,7 +77,7 @@ export default function DescriptionSection() {
         <SectionTitle
           eyebrow="Game Overview"
           title="What is BANTAY?"
-          desc="A survival horror experience inspired by Philippine folklore, where every map, monster, and decision pulls you deeper into a cursed world."
+          desc="A fighting-adventure experience inspired by Philippine folklore, where every map, monster, and decision pulls you deeper into a cursed world."
         />
 
         <div className="grid items-stretch gap-8 xl:grid-cols-2 xl:gap-10">
@@ -111,7 +111,7 @@ export default function DescriptionSection() {
                       Experience
                     </p>
                     <p className="mt-2 text-sm leading-6 text-stone-200">
-                      Tense exploration, role-based combat, and survival-driven gameplay.
+                      Role-based combat and survival-driven gameplay.
                     </p>
                   </div>
 
@@ -129,7 +129,7 @@ export default function DescriptionSection() {
                       Theme
                     </p>
                     <p className="mt-2 text-sm leading-6 text-stone-200">
-                      Fear, legend, survival, and the unseen.
+                      Adventure, fighting, legend, survival, and the unseen.
                     </p>
                   </div>
                 </div>

@@ -2,24 +2,31 @@ import { Code2, Palette, Layers3 } from "lucide-react";
 import SectionTitle from "../ui/SectionTitle";
 import { container, sectionPadding } from "../../styles/theme";
 
+import abbyImg from "../../assets/developers/abby_img.png";
+import fransuaImg from "../../assets/developers/sua_img.png";
+import mikeImg from "../../assets/developers/mike_img.png";
+
 const developers = [
   {
     name: "Jeallan Abby Sulit",
-    role: "Project Leader • UI/UX Designer",
+    role: "Project Leader • UI/UX Designer • Asst. Programmer",
     desc: "Leads the overall vision of BANTAY and designs the interface, layout, and visual presentation of the game and website.",
     icon: Palette,
+    image: abbyImg,
   },
   {
     name: "Fransua John Villesis",
-    role: "Game Programmer",
+    role: "Game Programmer • Animator",
     desc: "Develops the gameplay systems, mechanics, and technical implementation that bring the world of BANTAY to life.",
     icon: Code2,
+    image: fransuaImg,
   },
   {
     name: "Mike Edniel Mondano",
-    role: "Environment Designer",
+    role: "Environment Designer • Asset Creator",
     desc: "Creates the game’s maps, atmosphere, and environmental visuals inspired by Philippine folklore and haunted locations.",
     icon: Layers3,
+    image: mikeImg,
   },
 ];
 
@@ -51,8 +58,16 @@ export default function DevelopersSection() {
                 <div className="absolute inset-x-0 top-0 h-1 bg-linear-to-r from-red-900 via-red-500 to-transparent opacity-70 transition group-hover:opacity-100" />
 
                 <div className="relative">
-                  <div className="flex h-16 w-16 items-center justify-center rounded-full border border-red-800/40 bg-red-950/30 text-red-300">
-                    <Icon className="h-7 w-7" />
+                  <div className="flex items-center gap-4">
+                    <img
+                      src={dev.image}
+                      alt={dev.name}
+                      className="h-20 w-20 rounded-full object-cover border-2 border-red-800/50 shadow-[0_0_18px_rgba(120,0,0,0.25)]"
+                    />
+
+                    <div className="flex h-14 w-14 items-center justify-center rounded-full border border-red-800/40 bg-red-950/30 text-red-300">
+                      <Icon className="h-6 w-6" />
+                    </div>
                   </div>
 
                   <p className="mt-6 text-xs font-semibold uppercase tracking-[0.3em] text-red-400/80">

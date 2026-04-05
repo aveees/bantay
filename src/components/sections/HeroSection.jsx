@@ -57,7 +57,7 @@ export default function HeroSection() {
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
               href="#download"
-              className="rounded-full bg-linear-to-b from-[#fa5c5c] via-[#a70707] to-[#5a0000] px-6 py-3  border-red-950 font-semibold text-white shadow-[0_0_20px_rgba(255,0,0,0.4)] transition hover:bg-red-500"
+              className="rounded-full bg-linear-to-b from-[#fa5c5c] via-[#a70707] to-[#5a0000] px-6 py-3 font-semibold text-white shadow-[0_0_20px_rgba(255,0,0,0.4)] transition hover:bg-red-500"
             >
               Download APK
             </a>
@@ -69,6 +69,10 @@ export default function HeroSection() {
               Watch Teaser
             </a>
           </div>
+
+          <p className="mt-3 text-sm text-stone-400">
+            Available on Android devices only
+          </p>
         </div>
       </div>
 

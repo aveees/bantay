@@ -19,7 +19,7 @@ export default function Header() {
             BANTAY
           </p>
           <p className="text-xs uppercase tracking-[0.25em] text-stone-400">
-            2D Survival Horror
+            2D Adventure-Fighting 
           </p>
         </div>
 
