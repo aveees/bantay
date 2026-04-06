@@ -33,7 +33,7 @@ export const characterCards = [
     desc: "A keeper of ancient remedies and sacred rituals who protects the living from curses and unseen forces.",
     frames: [albularyo1, albularyo2, albularyo3, albularyo4, albularyo5, albularyo6, albularyo7],
     accent: "from-orange-700/20 to-transparent",
-    tags: ["Heal", "Cleanse", "Support"],
+    tags: ["Heal", "Light Damage", "Buff"],
      spriteSize: "h-[125px] md:h-[145px]",
   },
   {
@@ -42,7 +42,7 @@ export const characterCards = [
     desc: "A fearless warrior who confronts darkness head-on and stands as the shield of the innocent.",
     frames: [mandirigma1, mandirigma2, mandirigma3, mandirigma4, mandirigma5, mandirigma6,mandirigma7,mandirigma8],
     accent: "from-red-700/20 to-transparent",
-    tags: ["Melee", "Defense", "Courage"],
+    tags: ["Melee", "Defense", "Taunt"],
      spriteSize: "h-[125px] md:h-[145px]",
   },
   {
