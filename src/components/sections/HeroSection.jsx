@@ -56,10 +56,11 @@ export default function HeroSection() {
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
-              href="/BANTAY.apk" 
-              download
+              href="https://github.com/aveees/bantay/releases/download/v1.0.0/BANTAY.apk"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-full bg-linear-to-b from-[#fa5c5c] via-[#a70707] to-[#5a0000] px-6 py-3 font-semibold text-white shadow-[0_0_20px_rgba(255,0,0,0.4)] transition hover:bg-red-500"
-               >
+            >
               Download APK
             </a>
 

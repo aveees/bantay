@@ -19,7 +19,7 @@ export default function Header() {
             BANTAY
           </p>
           <p className="text-xs uppercase tracking-[0.25em] text-stone-400">
-            2D Adventure-Fighting 
+            2D Adventure-Fighting
           </p>
         </div>
 
@@ -33,8 +33,9 @@ export default function Header() {
         </nav>
 
         <a
-          href="/BANTAY.apk" 
-          download
+          href="https://github.com/aveees/bantay/releases/download/v1.0.0/BANTAY.apk"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center gap-2 rounded-full border border-red-300/30 bg-red-500/10 px-4 py-2 text-sm font-medium text-red-100 shadow-[0_0_20px_rgba(255,145,0,0.14)] transition hover:border-red-200/60 hover:bg-red-400/20 hover:shadow-[0_0_30px_rgba(255,145,0,0.28)]"
         >
           <Download className="h-4 w-4" />
