@@ -43,19 +43,19 @@ const highlights = [
     icon: Gamepad2,
     label: "Genre",
     title: "2D Top-Down Fighting-Adventure",
-    desc: "BANTAY is a folklore-driven survival horror game where players explore cursed environments, evade or confront terrifying creatures, and uncover the truth behind a land consumed by fear.",
+    desc: "BANTAY is a folklore-driven fighting-adventure game where players explore cursed environments, evade or confront terrifying creatures, and uncover the truth behind a land consumed by fear.",
   },
   {
     icon: Crosshair,
     label: "Core Objective",
     title: "Survive, Protect, and Resist the Darkness",
-    desc: "Your mission is to endure the horrors of the night, defend the village core from supernatural threats, and choose how to fight back through strategy, role abilities, and courage.",
+    desc: "Your mission is to endure the horrors of the night, defend the village from supernatural threats, and choose how to fight back through strategy, role abilities, and courage.",
   },
   {
     icon: ShieldAlert,
     label: "Gameplay Focus",
     title: "Combat, Exploration, and Role-Based Play",
-    desc: "Choose between Albularyo, Mangkukulam, and Mandirigma, each with different strengths. Search haunted areas, face enemies inspired by Philippine folklore, and use your abilities wisely to survive.",
+    desc: "Choose between Albularyo, Mangkukulam, and Mandirigma, each with different strengths. Face enemies inspired by Philippine folklore, and use your abilities wisely to survive.",
   },
   {
     icon: Map,
