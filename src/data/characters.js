@@ -51,7 +51,7 @@ export const characterCards = [
     desc: "A wielder of forbidden power whose spells grow stronger as corruption slowly takes hold.",
     frames: [mangkukulam1, mangkukulam2, mangkukulam3,mangkukulam4, mangkukulam5, mangkukulam6],
     accent: "from-emerald-700/20 to-transparent",
-    tags: ["Dark Magic", "AOE", "Corruption"],
+    tags: ["Dark Magic", "AOE"],
     spriteSize: "h-[125px] md:h-[145px]",
   },
 ];

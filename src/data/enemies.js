@@ -60,7 +60,7 @@ export const enemyCards = [
   {
     name: "Multo",
     type: "Spirit",
-    desc: "Born from whispered tales in remote barrios, the Aswang is feared as a flesh-eating creature that hides among ordinary people by day and hunts at night. It is said to prey on the weak and defenseless, moving in silence until its victim is already lost to terror.",
+    desc: "A restless spirit said to linger in places marked by grief and unfinished lives, the Multo drifts between the living and the dead as a shadow of fear. Often unseen until it is too late, it is believed to haunt lonely paths and forgotten homes, feeding on dread and leaving only silence in its wake.",
     frames: [multo1, multo2, multo3, multo4, multo5, multo6, multo7, multo8],
     accent: "from-red-700/20 to-transparent",
     tags: ["Shoots damage"],
